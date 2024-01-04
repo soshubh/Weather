@@ -136,6 +136,28 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  .card {
+    width: 100%;
+    /* max-width: 470px; */
+    background: none;
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+  }
+  
+  .card {
+    box-shadow:none;
+    border-radius:0%;
+    /* background: rgb(255, 255, 255, 0.1); */
+    /* overflow: hidden; */
+  
+    border-top:0px;
+    border-left:0px;
+  
+  
+  }
   .search {
     /* display: none; */
     width: 100%;
@@ -146,9 +168,9 @@ body {
   }
   
   .search input {
-    border: 0;
-    outline: 0;
-    background: #ebfffc;
+    /* border: 0; */
+    /* outline: 0; */
+    /* background: #ebfffc; */
     color: #555;
     padding: 10px 25px;
     height: 50px;
